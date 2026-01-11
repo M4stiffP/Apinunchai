@@ -1,0 +1,1 @@
+// No types needed for static website

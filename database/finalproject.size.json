@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441e0c"
+  },
+  "color_id": 1,
+  "size": 38,
+  "stock_in": 100,
+  "stock_out": 53,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441e0d"
+  },
+  "color_id": 1,
+  "size": 39,
+  "stock_in": 100,
+  "stock_out": 9,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441e0e"
+  },
+  "color_id": 1,
+  "size": 40,
+  "stock_in": 100,
+  "stock_out": 36,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441e0f"
+  },
+  "color_id": 1,
+  "size": 41,
+  "stock_in": 100,
+  "stock_out": 93,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441e10"
+  },
+  "color_id": 1,
+  "size": 42,
+  "stock_in": 100,
+  "stock_out": 53,
+  "__v": 0
+}]

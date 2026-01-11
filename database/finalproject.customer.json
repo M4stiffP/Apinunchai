@@ -1,0 +1,121 @@
+[{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441deb"
+  },
+  "id_Customer": 1,
+  "name": "มะยม ใจงาม",
+  "email": "b1@gmail.com",
+  "phone": "0988777755",
+  "password": "$2a$10$mksY0BGw/muXU349pBAiAO7rr4mGwfJTSo55nyRwX8IKVh01oEx4i",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441dec"
+  },
+  "id_Customer": 2,
+  "name": "มยัง ใจงาม",
+  "email": "b2@gmail.com",
+  "phone": "0888777771",
+  "password": "$2a$10$vE9/.BM9CFNEdtoubsQ59efajdZswuPFxeWd8CqVEc0mrFoxfc8nC",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441ded"
+  },
+  "id_Customer": 3,
+  "name": "มนัส ใจงาม",
+  "email": "b3@gmail.com",
+  "phone": "0888777772",
+  "password": "$2a$10$4YUTnKtvTp3xYgiewmsZ2OwWFYO05iblqg96ZJED6rsDhYQp5DkpG",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441dee"
+  },
+  "id_Customer": 4,
+  "name": "มนง ใจงาม",
+  "email": "b4@gmail.com",
+  "phone": "0888777773",
+  "password": "$2a$10$BHvRrjueUMx0cOa4lc2Xyur2f8AujQmjdy1muBlFe/2sPv3pvvM2O",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441def"
+  },
+  "id_Customer": 5,
+  "name": "มนี ใจงาม",
+  "email": "b5@gmail.com",
+  "phone": "0888777777",
+  "password": "$2a$10$eSeszyMNf6N4oXuf20Sbt.gO5sYgMZEyPmOf47mfYPiNeaaILQU6K",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441df0"
+  },
+  "id_Customer": 6,
+  "name": "ขนุน ใจงาม",
+  "email": "b6@gmail.com",
+  "phone": "0988775565",
+  "password": "$2a$10$Ca4j9vwhk5CsKsqk0K5jEeCO8B5BvtItRl2c6ISpL1FISZrJKUVJW",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441df1"
+  },
+  "id_Customer": 7,
+  "name": "ขนม ใจงาม",
+  "email": "b7@gmail.com",
+  "phone": "0888777764",
+  "password": "$2a$10$ZgDO1N4LVJE.Bly06dtxHen1.m0ClCdkxwlnW/Yh/xoEuVw/PUqba",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441df2"
+  },
+  "id_Customer": 8,
+  "name": "คำขวัญ ใจงาม",
+  "email": "b8@gmail.com",
+  "phone": "0888777763",
+  "password": "$2a$10$AflVJhH2FxIgiHYltnIYw.d5qeXzjHIa8u9Oi8IFWG4IU9WFIcqPK",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441df3"
+  },
+  "id_Customer": 9,
+  "name": "สามัน ใจงาม",
+  "email": "b9@gmail.com",
+  "phone": "0888777762",
+  "password": "$2a$10$qop.yeeYk7gLwXcw9bEM/O7s8Dl6UQet9HAKIZVPhGQGGhFIuZjky",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591b494cf4ca24a441df4"
+  },
+  "id_Customer": 10,
+  "name": "คารม ใจงาม",
+  "email": "b10@gmail.com",
+  "phone": "0888777761",
+  "password": "$2a$10$wPWqoTV1VnutoELOZlDuaOct4AuS6vwze0GuwMQUIZ1ZUfL.GN/Ki",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "690591ec2356aaa5699f683d"
+  },
+  "id_Customer": 11,
+  "name": "6M4TiFF",
+  "email": "pwtynk@gmail.com",
+  "phone": "0615515815",
+  "password": "$2a$10$RskBOIiSw2Twwij/o.Wpc.MkOXw7dHNok52ErPa3thWoJzLNlVr8W",
+  "__v": 0
+}]
