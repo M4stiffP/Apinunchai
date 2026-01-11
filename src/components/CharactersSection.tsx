@@ -89,7 +89,7 @@ const CharactersSection: React.FC = () => {
                 className="flex transition-transform duration-500 ease-in-out"
                 style={{ transform: `translateX(-${currentIndex * 100}%)` }}
               >
-                {pdfDocuments.map((doc, index) => (
+                {pdfDocuments.map((doc) => (
                   <div 
                     key={doc.fileName}
                     className="w-full flex-shrink-0 px-4"
