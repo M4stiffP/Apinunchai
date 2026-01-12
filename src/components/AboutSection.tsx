@@ -37,13 +37,13 @@ const AboutSection: React.FC = () => {
               hasIntersected ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'
             }`}>
               <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                I am Apinunchai Witthayanukrao, a Computational Mathematics student at King Mongkut's University of Technology North Bangkok with a GPA of 3.77. I am passionate about Full Stack Development and Data Analysis, currently seeking an internship opportunity to apply my technical skills in a professional environment.
+                I am <span className="text-anime-orange font-semibold">Apinunchai Witthayanukrao</span>, a Mathematics with Computer Science student at <span className="text-anime-gold">King Mongkut's University of Technology North Bangkok</span> with a GPA of <span className="text-anime-orange">3.77</span>. I am passionate about <span className="text-white font-medium">Full Stack Development and Data Analysis</span>, currently seeking an internship opportunity to apply my technical skills in a professional environment.
               </p>
               <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                Through my academic coursework and personal projects, I have built a strong foundation in Computer Science and Mathematics. My technical skill set includes JavaScript, TypeScript, Python, C#, and PHP. I have a keen interest in modern web technologies, particularly React.js and Node.js, and have practical experience managing databases such as MySQL and MongoDB.
+                Through my academic coursework and personal projects, I have built a strong foundation in <span className="text-anime-gold">Computer Science and Mathematics</span>. My technical skill set includes <span className="text-white font-medium">JavaScript, TypeScript, Python, C#, and PHP</span>. I have a keen interest in modern web technologies, particularly <span className="text-anime-orange">React.js and Node.js</span>, and have practical experience managing databases such as <span className="text-anime-gold">MySQL and MongoDB</span>.
               </p>
               <p className="text-base sm:text-lg text-gray-300 leading-relaxed">
-                I am a fast learner who is eager to adapt to new technologies and workflows. Whether developing e-commerce platforms, building data-driven applications, or designing games, I approach every task with attention to detail and a commitment to delivering high-quality work. I am ready to contribute to the team while further developing my skills as a developer.
+                I am a <span className="text-anime-orange font-medium">fast learner</span> who is eager to adapt to new technologies and workflows. Whether developing <span className="text-white">e-commerce platforms</span>, building <span className="text-anime-gold">data-driven applications</span>, or designing games, I approach every task with <span className="text-anime-orange">attention to detail</span> and a commitment to delivering <span className="text-white font-medium">high-quality work</span>. I am ready to contribute to the team while further developing my skills as a developer.
               </p>
               
               {/* Programming Languages */}
