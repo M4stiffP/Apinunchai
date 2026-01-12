@@ -31,16 +31,16 @@ const Header: React.FC = () => {
 
   return (
     <>
-      {/* Fixed Menu Icon - Very large icon without background circle */}
-      <div className="fixed top-6 right-6 z-50">
+      {/* Fixed Menu Icon - Responsive size */}
+      <div className="fixed top-4 right-4 lg:top-6 lg:right-6 z-50">
         <button 
           onClick={handleMenuToggle}
-          className="transition-all duration-300 hover:scale-90 transform p-4"
+          className="transition-all duration-300 hover:scale-90 transform p-2 lg:p-4"
         >
           <img 
             src={isMobileMenuOpen ? "/images/closeIcon.png" : "/images/menuIcon.png"}
             alt="Menu" 
-            className="w-40 h-40 animate-slow-spin drop-shadow-xl filter"
+            className="w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 xl:w-40 xl:h-40 animate-slow-spin drop-shadow-xl filter"
           />
         </button>
       </div>

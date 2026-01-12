@@ -45,16 +45,16 @@ const PromotionalBanner: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-[9xl] mx-auto">
           {/* Enlarged Image Banner with Spacing - 1.5x size width and height */}
-          <div className="relative w-full h-72 md:h-96 overflow-hidden group rounded-lg border-2 border-red-500/50 shadow-2xl">
+          <div className="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 overflow-hidden group rounded-lg border-2 border-red-500/50 shadow-2xl">
             
             {/* Continuous Images Strip with Wider 3 Images Display and Gap */}
             <div 
-              className="flex absolute inset-0 transition-transform duration-1000 ease-in-out gap-6"
+              className="flex absolute inset-0 transition-transform duration-1000 ease-in-out gap-2 sm:gap-4 lg:gap-6"
               style={{
                 transform: `translateX(-${currentIndex * (100/2.5)}%)`,
                 width: `${(banners.length + 2) * (100/2.5)}%`,
-                paddingLeft: '2rem',
-                paddingRight: '2rem'
+                paddingLeft: '1rem',
+                paddingRight: '1rem'
               }}
             >
           {/* Duplicate first image at the end for seamless loop */}
@@ -64,8 +64,8 @@ const PromotionalBanner: React.FC = () => {
               onClick={handleBannerClick}
               className="relative flex-none h-full cursor-pointer rounded-lg overflow-hidden shadow-lg"
               style={{ 
-                width: `calc(${100 / (banners.length + 1)}% - 1rem)`,
-                minWidth: '350px'
+                width: `calc(${100 / (banners.length + 1)}% - 0.5rem)`,
+                minWidth: '250px'
               }}
             >
               {/* Full Image Coverage with Better Hover Effect */}
@@ -95,11 +95,11 @@ const PromotionalBanner: React.FC = () => {
           ))}
         </div>
         {/* Navigation Controls - Simple Toggle Between Start and End */}
-        <div className="absolute top-4 right-4 flex items-center space-x-3 z-20">
+        <div className="absolute top-2 right-2 sm:top-4 sm:right-4 flex items-center space-x-2 sm:space-x-3 z-20">
           {/* Left Arrow Button */}
           <button
             onClick={prevSlide}
-            className="w-12 h-12 rounded-full transition-all duration-200 ease-in-out shadow-lg flex items-center justify-center text-2xl font-bold bg-white text-black hover:bg-gray-100 hover:scale-110 active:scale-95"
+            className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full transition-all duration-200 ease-in-out shadow-lg flex items-center justify-center text-lg sm:text-xl lg:text-2xl font-bold bg-white text-black hover:bg-gray-100 hover:scale-110 active:scale-95"
             aria-label="Toggle Slide Left"
             title="เลื่อนซ้าย/กลับ"
           >
@@ -109,7 +109,7 @@ const PromotionalBanner: React.FC = () => {
           {/* Right Arrow Button */}
           <button
             onClick={nextSlide}
-            className="w-12 h-12 rounded-full transition-all duration-200 ease-in-out shadow-lg flex items-center justify-center text-2xl font-bold bg-white text-black hover:bg-gray-100 hover:scale-110 active:scale-95"
+            className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 rounded-full transition-all duration-200 ease-in-out shadow-lg flex items-center justify-center text-lg sm:text-xl lg:text-2xl font-bold bg-white text-black hover:bg-gray-100 hover:scale-110 active:scale-95"
             aria-label="Toggle Slide Right"
             title="เลื่อนขวา/กลับ"
           >
