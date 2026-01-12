@@ -28,7 +28,7 @@ const HeroSection: React.FC = () => {
       <div className="absolute inset-0 flex items-center justify-center z-10 pt-20">
         <img 
           src="/images/card.png" 
-          alt="Witthayanukrao Apinunchai Shoes" 
+          alt="Apinunchai Witthayanukrao Portfolio" 
           className="w-[480px] sm:w-[560px] md:w-[720px] lg:w-[880px] xl:w-[1040px] 2xl:w-[1200px] h-auto object-contain opacity-95 drop-shadow-2xl filter shadow-2xl"
         />
       </div>
