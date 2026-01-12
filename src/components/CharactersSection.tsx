@@ -5,7 +5,7 @@ const CharactersSection: React.FC = () => {
   const pdfDocuments = [
     {
       title: 'Resume - Data Engineer (English)',
-      description: 'Professional resume tailored for Data Engineering positions, highlighting technical skills in Python, SQL, data pipeline development, and big data technologies.',
+      description: 'Tailored for Data Engineering & Analysis roles, this resume emphasizes my strong foundation in Computational Mathematics and logic. It features skills in Database Management (SQL, ERD), Python scripting for data pipelines, and academic research on Deep Learning for predictive modeling.',
       fileName: 'Apinunchai_Wtynk_Resume_Data_Eng.pdf',
       badge: 'RECOMMENDED',
       icon: '📊',
@@ -13,7 +13,7 @@ const CharactersSection: React.FC = () => {
     },
     {
       title: 'Resume - Data Engineer (Thai)',
-      description: 'เรซูเม่ภาษาไทยสำหรับตำแหน่ง Data Engineer แสดงทักษะด้านการวิเคราะห์ข้อมูล Python, SQL, การจัดการฐานข้อมูล และเทคโนโลยี Big Data',
+      description: 'เรซูเม่ฉบับนี้เน้นจุดแข็งด้าน Data Engineering และพื้นฐาน Computational Mathematics แสดงทักษะการออกแบบฐานข้อมูล (SQL, Schema Design), การเขียนโปรแกรมจัดการข้อมูลด้วย Python และไฮไลต์โปรเจกต์สัมมนาด้าน Deep Learning สำหรับการพยากรณ์ข้อมูล',
       fileName: 'Apinunchai_Wtynk_Resume_Data_Thai.pdf',
       badge: 'FEATURED',
       icon: '🇹🇭📊',
@@ -21,7 +21,7 @@ const CharactersSection: React.FC = () => {
     },
     {
       title: 'Resume - Developer (English)', 
-      description: 'Comprehensive resume focusing on Full Stack Development skills, including React, TypeScript, Node.js, database management, and modern web technologies.',
+      description: 'This resume targets Software Developer roles, highlighting my proficiency in Full Stack Web Development (React, TypeScript, Node.js). It showcases my ability to build functional web applications and creative game projects, demonstrating strong coding logic and UI/UX implementation.',
       fileName: 'Apinunchai_Wtynk_Resume_Dev_Eng.pdf',
       badge: 'POPULAR',
       icon: '💻',
@@ -29,11 +29,19 @@ const CharactersSection: React.FC = () => {
     },
     {
       title: 'Resume - Developer (Thai)',
-      description: 'เรซูเม่ภาษาไทยสำหรับตำแหน่งนักพัฒนา แสดงทักษะการเขียนโปรแกรม การพัฒนาเว็บแอปพลิเคชัน และโปรเจกต์ต่างๆ ที่ผ่านมา',
+      description: 'เรซูเม่ฉบับนี้เน้นทักษะด้าน Full Stack Development และความคิดสร้างสรรค์ในการพัฒนาซอฟต์แวร์ แสดงรายละเอียดทักษะการใช้เครื่องมืออย่าง React, TypeScript, Node.js รวมถึงผลงานการพัฒนา Web Application และ Game Development ที่ใช้งานได้จริง',
       fileName: 'Apinunchai_Wtynk_Resume_Dev_Thai.pdf',
       badge: 'LATEST',
       icon: '🇹🇭',
       category: 'Software Development'
+    },
+    {
+      title: 'Resume - General CV',
+      description: 'A detailed curriculum vitae covering my full academic background in Computational Mathematics. Includes in-depth descriptions of my research on Deep Learning, coursework in Algorithms & Math Models, and comprehensive project details.',
+      fileName: 'Apinunchai_Wtynk_Resume_CV.pdf',
+      badge: 'COMPLETE',
+      icon: '📄',
+      category: 'General'
     }
   ]
 
@@ -63,7 +71,7 @@ const CharactersSection: React.FC = () => {
             </h2>
             <div className="w-24 h-1 bg-anime-gold mx-auto"></div>
             <p className="text-gray-300 mt-6 text-lg">
-              Download my professional resumes in different formats
+              สำหรับเด็กหาที่ฝึกงาน
             </p>
           </div>
 

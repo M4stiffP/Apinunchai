@@ -7,7 +7,7 @@ const CertificatePage: React.FC = () => {
       id: 1,
       title: "Mahidol AI Certificate",
       image: "/images/certificate/mahidol_ai.png",
-      description: "Artificial Intelligence certification from Mahidol University demonstrating proficiency in AI concepts, machine learning algorithms, and practical applications in technology development.",
+      description: "This course will guide learners to understand the fundamentals of Prompt Engineering for general users, with examples of AI applications through Chatbot and ChatGPT, including prompt writing techniques and using AI for document creation, image analysis, table analysis, and efficient data summarization.",
       date: "2024",
       category: "Academic"
     },
