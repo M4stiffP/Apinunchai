@@ -5,6 +5,15 @@ const CertificatePage: React.FC = () => {
   const certificates = [
     {
       id: 1,
+      title: "FutureSkill Certificate in create your website's visualization using HTML. Course",
+      image: "/images/certificate/Cerificatehtml.png",
+      description: "Start your journey from zero to building functional web pages. This course focuses on the 'skeleton' of web development using HTML5. We go beyond just syntax, teaching you the 'why' and 'how' of real-world coding, complete with a handy Cheatsheet to accelerate your learning. Learn HTML5 Basics & Structuring Content, Working with Tables & Forms, and complete Projects: Build a Branding Page, Storefront, and Survey Form. Bonus: HTML Command Cheatsheet included.",
+      date: "2024",
+      category: "Web Development",
+      skills: ["HTML5 Basics & Structure", "Tables & Forms", "Branding Page Project", "Storefront Project", "HTML Command Cheatsheet"]
+    },
+    {
+      id: 2,
       title: "Mahidol AI Certificate",
       image: "/images/certificate/mahidol_ai.png",
       description: "This course will guide learners to understand the fundamentals of Prompt Engineering for general users, with examples of AI applications through Chatbot and ChatGPT, including prompt writing techniques and using AI for document creation, image analysis, table analysis, and efficient data summarization.",
@@ -12,12 +21,39 @@ const CertificatePage: React.FC = () => {
       category: "Academic"
     },
     {
-      id: 2,
+      id: 3,
       title: "UX/UI Design Certificate", 
       image: "/images/certificate/UxUi_Cer.png",
       description: "User Experience and User Interface Design certification showcasing skills in design principles, user research, wireframing, prototyping, and creating intuitive digital experiences.",
       date: "2024",
       category: "Professional"
+    },
+    {
+      id: 4,
+      title: "FutureSkill Certificate in JavaScript Course",
+      image: "/images/certificate/javaScript.png",
+      description: "Master Web Interactivity with JavaScript - Think of JavaScript as the 'muscles' of a website. While HTML is the skeleton and CSS is the skin, JavaScript brings the site to life, allowing it to move, react, and interact with users. Without it, a website is just a static page. This comprehensive course teaches you to understand the core role of JavaScript in modern web development, write fundamental programming logic, control and update website content dynamically using the DOM, and apply your skills in real-world hands-on projects.",
+      date: "2024",
+      category: "Programming",
+      skills: ["DOM Manipulation", "Event Handling", "Programming Logic", "Dynamic Content Control", "Interactive Web Development"]
+    },
+    {
+      id: 5,
+      title: "FutureSkill Certificate in Coding C Languages Course",
+      image: "/images/certificate/CerificateC.png",
+      description: "Master the Fundamentals with C Programming - Start your coding journey here. We focus on a deep understanding of logic and algorithms step-by-step, making C the perfect foundation for learning any other programming language. This comprehensive course covers C Syntax & Structure, Loops & Conditional Statements, Arrays, Strings, & Functions, and advanced concepts like Pointers & File Handling.",
+      date: "2024",
+      category: "Programming",
+      skills: ["C Syntax & Structure", "Loops & Conditionals", "Arrays & Strings", "Functions", "Pointers & File Handling"]
+    },
+    {
+      id: 6,
+      title: "FutureSkill Certificate in UpSkill Python Programming Course",
+      image: "/images/certificate/Cerificatepython.png",
+      description: "UpSkill Python Programming: Path to Developer - Master Python from scratch with a Ph.D. expert from Tokyo Institute of Technology. This course offers a 'step-by-step' approach, guiding you from installation to building your first project. It is the perfect starting point for aspiring Developers and Data Scientists. Learn Python Installation & Setup, Syntax & Core Structures, Independent Coding & Project Creation, and participate in a Workshop: Building an Expert System.",
+      date: "2024",
+      category: "Programming",
+      skills: ["Python Installation & Setup", "Syntax & Core Structures", "Independent Coding", "Project Creation", "Expert System Workshop"]
     }
   ]
 
@@ -48,9 +84,6 @@ const CertificatePage: React.FC = () => {
               MY CERTIFICATES
             </h1>
             <div className="w-24 h-1 bg-anime-gold mx-auto"></div>
-            <p className="text-gray-300 mt-6 text-lg">
-              Academic achievements and professional certifications
-            </p>
           </div>
 
           {/* Certificates Gallery */}
@@ -86,6 +119,22 @@ const CertificatePage: React.FC = () => {
                     <p className="text-gray-300 leading-relaxed mb-6">
                       {cert.description}
                     </p>
+                    
+                    {cert.skills && (
+                      <div className="mb-6">
+                        <h4 className="text-lg font-semibold text-white mb-3">Key Skills Learned:</h4>
+                        <div className="flex flex-wrap gap-2">
+                          {cert.skills.map((skill, skillIndex) => (
+                            <span 
+                              key={skillIndex}
+                              className={`px-3 py-1 text-xs bg-anime-${index % 2 === 0 ? 'gold' : 'orange'}/20 text-anime-${index % 2 === 0 ? 'gold' : 'orange'} rounded-full border border-anime-${index % 2 === 0 ? 'gold' : 'orange'}/30`}
+                            >
+                              {skill}
+                            </span>
+                          ))}
+                        </div>
+                      </div>
+                    )}
                     
                     <div className={`flex items-center text-anime-${index % 2 === 0 ? 'orange' : 'gold'} font-semibold`}>
                       <span className={`w-8 h-px bg-anime-${index % 2 === 0 ? 'orange' : 'gold'} mr-4`}></span>
