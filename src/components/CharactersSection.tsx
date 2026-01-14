@@ -70,9 +70,6 @@ const CharactersSection: React.FC = () => {
               RESUME DOWNLOADS
             </h2>
             <div className="w-24 h-1 bg-anime-gold mx-auto"></div>
-            <p className="text-gray-300 mt-6 text-lg">
-              สำหรับเด็กหาที่ฝึกงาน
-            </p>
           </div>
 
           {/* PDF Download Cards Carousel */}
