@@ -21,7 +21,7 @@ const VideoDisplay: React.FC = () => {
             playsInline
           >
             <source 
-              src="https://ik.imagekit.io/M4sTiff/APProject.mp4" 
+              src="https://ik.imagekit.io/6M4sTiff/APProject.mp4" 
               type="video/mp4" 
             />
             Your browser does not support the video tag.
