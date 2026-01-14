@@ -7,7 +7,7 @@ const CharactersSection: React.FC = () => {
       title: 'Resume - Data Engineer (English)',
       description: 'Tailored for Data Engineering & Analysis roles, this resume emphasizes my strong foundation in Computational Mathematics and logic. It features skills in Database Management (SQL, ERD), Python scripting for data pipelines, and academic research on Deep Learning for predictive modeling.',
       fileName: 'Apinunchai_Wtynk_Resume_Data_Eng.pdf',
-      badge: 'RECOMMENDED',
+      badge: '',
       icon: '📊',
       category: 'Data Engineering'
     },
@@ -15,7 +15,6 @@ const CharactersSection: React.FC = () => {
       title: 'Resume - Data Engineer (Thai)',
       description: 'เรซูเม่ฉบับนี้เน้นจุดแข็งด้าน Data Engineering และพื้นฐาน Computational Mathematics แสดงทักษะการออกแบบฐานข้อมูล (SQL, Schema Design), การเขียนโปรแกรมจัดการข้อมูลด้วย Python และไฮไลต์โปรเจกต์สัมมนาด้าน Deep Learning สำหรับการพยากรณ์ข้อมูล',
       fileName: 'Apinunchai_Wtynk_Resume_Data_Thai.pdf',
-      badge: 'FEATURED',
       icon: '🇹🇭📊',
       category: 'Data Engineering'
     },
@@ -23,7 +22,6 @@ const CharactersSection: React.FC = () => {
       title: 'Resume - Developer (English)', 
       description: 'This resume targets Software Developer roles, highlighting my proficiency in Full Stack Web Development (React, TypeScript, Node.js). It showcases my ability to build functional web applications and creative game projects, demonstrating strong coding logic and UI/UX implementation.',
       fileName: 'Apinunchai_Wtynk_Resume_Dev_Eng.pdf',
-      badge: 'POPULAR',
       icon: '💻',
       category: 'Software Development'
     },
@@ -31,7 +29,6 @@ const CharactersSection: React.FC = () => {
       title: 'Resume - Developer (Thai)',
       description: 'เรซูเม่ฉบับนี้เน้นทักษะด้าน Full Stack Development และความคิดสร้างสรรค์ในการพัฒนาซอฟต์แวร์ แสดงรายละเอียดทักษะการใช้เครื่องมืออย่าง React, TypeScript, Node.js รวมถึงผลงานการพัฒนา Web Application และ Game Development ที่ใช้งานได้จริง',
       fileName: 'Apinunchai_Wtynk_Resume_Dev_Thai.pdf',
-      badge: 'LATEST',
       icon: '🇹🇭',
       category: 'Software Development'
     },
@@ -39,7 +36,6 @@ const CharactersSection: React.FC = () => {
       title: 'Resume - General CV',
       description: 'A detailed curriculum vitae covering my full academic background in Computational Mathematics. Includes in-depth descriptions of my research on Deep Learning, coursework in Algorithms & Math Models, and comprehensive project details.',
       fileName: 'Apinunchai_Wtynk_Resume_CV.pdf',
-      badge: 'COMPLETE',
       icon: '📄',
       category: 'General'
     }
@@ -102,17 +98,7 @@ const CharactersSection: React.FC = () => {
                     <div className="group relative h-96 max-w-md mx-auto">
                       {/* Front Side - Always Visible */}
                       <div className="absolute inset-0 bg-black/60 rounded-lg overflow-hidden border border-anime-orange/30 transition-all duration-500 group-hover:opacity-0 group-hover:scale-95">
-                        {/* Document Badge */}
-                        <div className="absolute top-4 left-4 z-10">
-                          <span className={`px-3 py-1 text-xs font-bold rounded-full ${
-                            doc.badge === 'RECOMMENDED' ? 'bg-green-500 text-white' :
-                            doc.badge === 'FEATURED' ? 'bg-red-500 text-white' :
-                            doc.badge === 'POPULAR' ? 'bg-blue-500 text-white' :
-                            'bg-purple-500 text-white'
-                          }`}>
-                            {doc.badge}
-                          </span>
-                        </div>
+
 
                         {/* Document Icon */}
                         <div className="relative h-48 flex items-center justify-center bg-gradient-to-br from-anime-orange/20 to-anime-gold/20">
